@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FMDBTool_Example' do
+  pod 'FMDBTool', :path => '../'
+
+  target 'FMDBTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
