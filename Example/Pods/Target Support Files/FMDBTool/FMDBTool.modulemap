@@ -1,6 +1,0 @@
-framework module FMDBTool {
-  umbrella header "FMDBTool-umbrella.h"
-
-  export *
-  module * { export * }
-}
