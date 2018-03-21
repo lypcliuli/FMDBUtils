@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FMDBUtils_Example' do
+  pod 'FMDBUtils', :path => '../'
+
+  target 'FMDBUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

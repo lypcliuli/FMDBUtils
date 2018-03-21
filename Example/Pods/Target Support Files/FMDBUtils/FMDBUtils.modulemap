@@ -1,0 +1,6 @@
+framework module FMDBUtils {
+  umbrella header "FMDBUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
